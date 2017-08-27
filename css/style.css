@@ -53,3 +53,15 @@ li {
 .footer {
     background-color:white;
 }
+
+.linkedin:hover {
+    margin-top: 1px
+}
+
+.github:hover {
+    margin-top: 1px;
+}
+
+.facebook:hover {
+    margin-top: 1px;
+}
