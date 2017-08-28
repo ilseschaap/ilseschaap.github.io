@@ -27,6 +27,7 @@ h1 {
 #picture {
     width: auto;
     height: 250px;
+    box-shadow: 0px 0px 50px 0px #CECECE;
 }
 
 img {
