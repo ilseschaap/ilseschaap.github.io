@@ -1,13 +1,14 @@
 h1 {
     color:#000000;
-    font-family: 'Neucha', cursive;
-    font-size: 70px;
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
     padding:0px;
 }
 
 .container {
     background-color: #FFFFFF;
     margin-top: 100px;
+    width: 500px;
 }
 
 .whitespace {
@@ -21,13 +22,14 @@ h1 {
 
 .photo {
     background-color: #FFFFFF;
-    margin-top:15px;
+    margin-top:50px;
 } 
 
 #picture {
     width: auto;
     height: 250px;
     box-shadow: 0px 0px 0px 0px #CECECE;
+    margin-top: 20px;
 }
 
 img {
@@ -36,6 +38,9 @@ img {
 
 body {
     background-color:#FFFFFF;
+    background-image: url("../img/3dbrick.jpg");
+    background-position: middle;
+    background-repeat: repeat;
 }
 
 ul {
@@ -69,6 +74,3 @@ li {
     margin-top: 1px;
 }
 
-.instagram:hover {
-    margin-top: 1px;
-}
