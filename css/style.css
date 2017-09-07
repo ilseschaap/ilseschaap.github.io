@@ -2,12 +2,12 @@ h1 {
     color:#000000;
     font-family: 'Neucha', cursive;
     font-size: 70px;
-    padding:10px;
+    padding:0px;
 }
 
 .container {
     background-color: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .whitespace {
@@ -16,7 +16,7 @@ h1 {
 
 .content {
     background-color: #FFFFFF;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .photo {
@@ -27,7 +27,7 @@ h1 {
 #picture {
     width: auto;
     height: 250px;
-    box-shadow: 0px 0px 50px 0px #CECECE;
+    box-shadow: 0px 0px 0px 0px #CECECE;
 }
 
 img {
@@ -38,15 +38,19 @@ body {
     background-color:#FFFFFF;
 }
 
+ul {
+    padding-left: 0;
+}
+
 li {
     list-style-type: none;
     display: inline-block;
 }
 
 .icons {
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 15px;
+    margin-left:15px;
 }
 
 .footer {
@@ -63,74 +67,4 @@ li {
 
 .facebook:hover {
     margin-top: 1px;
-}
-
-@media screen and (min-width: 0px) {
-    body {
-        background-color: #FFFFFF;
-    }
-    .header {
-        background-color:white;
-        height: 0px;
-        width: 100%;
-    }
-    #picture {
-        margin-left: 25px;
-    }
-}
-
-@media screen and (min-width: 540px) {
-    body {
-        background-color: #FFFFFF;
-    }
-    .header {
-        background-color:white;
-        height: 0px;
-        width: 100%;
-    }
-    #picture {
-        margin-left: 120px;
-    }
-}
-
-@media screen and (min-width: 720px) {
-    body {
-        background-color: #FFFFFF;
-    }
-    .header {
-        background-color:white;
-        height: 150px;
-        width: 100%;
-    }
-    #picture {
-        margin-left: 0px;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    body {
-        background-color: #FFFFFF;
-    }
-    .header {
-        background-color:white;
-        height: 150px;
-        width: 100%;
-    }
-    #picture {
-        margin-right: 0px;
-    }
-}
-
-@media screen and (min-width: 1140px) {
-    body {
-        background-color: #FFFFFF;
-    }
-    .header {
-        background-color:white;
-        height: 150px;
-        width: 100%;
-    }
-    .content {
-        margin-left: 20px;
-    }
 }
