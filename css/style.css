@@ -8,11 +8,6 @@ h1 {
 .container {
     background-color: #FFFFFF;
     margin-top: 100px;
-    width: 500px;
-}
-
-.whitespace {
-    background-color: #FFFFFF;
 }
 
 .content {
@@ -20,20 +15,11 @@ h1 {
     margin-top: 20px;
 }
 
-.photo {
-    background-color: #FFFFFF;
-    margin-top:50px;
-} 
-
 #picture {
     width: auto;
     height: 250px;
     box-shadow: 0px 0px 0px 0px #CECECE;
     margin-top: 20px;
-}
-
-img {
-    border: 0px solid black;
 }
 
 body {
